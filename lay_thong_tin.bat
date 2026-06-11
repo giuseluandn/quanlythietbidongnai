@@ -14,7 +14,7 @@ chcp 65001 >nul 2>&1
 :: ─────────────────────────────────────────────────────────────────────────────
 
 powershell -NoProfile -ExecutionPolicy Bypass -Command ^
- "$u='https://nguyennam90.github.io/Check_thiet_bi';" ^
+ "$u='https://giuseluandn.github.io/quanlythietbidongnai';" ^
  "try{" ^
  "  $d=Join-Path $env:LOCALAPPDATA 'VNPost';" ^
  "  New-Item -ItemType Directory -Path $d -Force|Out-Null;" ^
